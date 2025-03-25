@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App(lite)</title>
+  <link rel="icon" type="image/png" href="./icons8-done-64.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <!-- <h2>To-Do List</h2> -->
+
+      <div class="box">
+        <span data-text="T">T</span>
+        <span data-text="O">O</span>
+        <span data-text="D">D</span>
+        <span data-text="O">O</span>
+        <span data-text="'">'</span>
+        <span data-text="s">s</span>        
+      </div>
+
+
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your text">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+        <!-- <li class="checked">task1</li>
+        <li>task1</li>
+        <li>task1</li> -->
+
+      </ul>
+    </div>
+  </div>
+
+ 
+
+  <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</body>
+</html>
